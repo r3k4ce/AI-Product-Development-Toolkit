@@ -33,17 +33,6 @@ Creating effective user experience documentation requires translating abstract p
 6. **Iterate:** Continue the conversation, providing feedback and answers until you feel enough information has been gathered for comprehensive UX specifications.
 7. **Review the v0.dev Translation:** Pay special attention to the v0.dev Design Translation Guide section, as this can be directly used as input for AI-powered visual design tools.
 
-## Workflow Integration
-
-This prompt is designed to fit into a larger product development workflow:
-
-1. **Product Requirements Document (PRD)** → Created using a PRD template
-2. **UX & User Flow Documentation** → Created using this template
-3. **Visual Design Generation** → Using the v0.dev translation section with v0.dev or similar tools
-4. **Frontend Implementation** → Using the complete UX & User Flow specifications
-
-The v0.dev Design Translation Guide section specifically formats your UX specifications for direct input into the v0.dev visual generation prompt filler, creating a seamless handoff between UX specification and visual design generation.
-
 ## Model Compatibility
 
 * This prompt was developed with models like Google Gemini, Claude 3, and GPT-4 in mind.
