@@ -1,6 +1,6 @@
-# Nomad's AI Prompt Library 🧠 [PromptQuick.ai](https://promptquick.ai)
+# Nomad's AI Product Development Toolkit 🧠 [PromptQuick.ai](https://promptquick.ai)
 
-Welcome to my personal collection of AI prompt templates and useful prompts! This repository serves as a central place to store, organize, and share effective prompts for various AI models, designed to guide users from idea to MVP.
+Welcome to my personal collection of product development prompt templates! This repository serves as a central place to store, organize, and share effective prompts for various AI models, designed to guide users from idea to MVP.
 
 ## About This Repository
 
