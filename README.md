@@ -48,7 +48,9 @@ This repository is organized into topical folders containing specialized prompts
 *   **Testing**: Template for creating thorough test plans for software quality assurance.
 *   **v0-Design**: Templates for generating `v0.dev` prompts based on UX Specs and MVP scope.
 
+```
 ⚠️ **Readme files in each folder contain crucial details – do not ignore them.** ⚠️
+```
 
 [PRD](https://github.com/TechNomadCode/AI-Prompt-Library/blob/main/PRD/README.md)
 
