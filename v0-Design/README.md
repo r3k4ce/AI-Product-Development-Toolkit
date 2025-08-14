@@ -1,42 +1,24 @@
-# AI Prompts for v0.dev Design Generation
+# AI Prompts for Copilot Agent Scaffold Prompt
 
-This folder contains prompts to help you generate frontend code using AI, specifically targeting the `v0.dev` tool. The goal is to turn your detailed User Experience (UX) plans into a starting point for your application's visual design, focusing only on what's needed for your Minimum Viable Product (MVP).
+This folder contains prompts to help you generate a scaffold prompt for GitHub Copilot Agent. The goal is to turn your detailed User Experience (UX) plans and MVP scope into a starting point for your application's codebase.
 
 ## The Prompts
 
 There are two main files here:
 
-1.  **`v0.dev-visual-generation-prompt.md` (The Target Template)**
-    *   **What it is:** This is a detailed blueprint that tells `v0.dev` exactly what kind of visual design to create.
-    *   **What it defines:** It covers the look and feel (theme, colors, fonts), layout, spacing, specific pages or views needed (like a dashboard or settings page), and how the code should be structured.
-    *   **How it's used:** You don't usually fill this out manually. Instead, you use the "Prompt Filler" (see below) to create a completed version of this template, which you then copy and paste into `v0.dev`.
+1.  **`copilot-scaffold-prompt.md` (The Target)**
+    *   **What it is:** This is a detailed blueprint that tells GitHub Copilot Agent exactly what kind of project to create.
+    *   **How it's used:** You don't usually fill this out manually. Instead, you use the "Prompt Filler" (see below) to create a completed version of this template, which you then copy and paste into GitHub Copilot Agent.
 
-2.  **`v0.dev-visual-generation-prompt-filler.md` (The Interactive Filler)**
+2.  **`copilot-scaffold-prompt-filler.md` (The Interactive Filler)**
     *   **What it is:** This is an interactive chat prompt you use with a general AI assistant (like Gemini, ChatGPT, Claude).
-    *   **What it does:** It guides you through a conversation to automatically fill out the "Target Template" above. It uses two key pieces of information you provide:
+    *   **What it does:** It guides you through a conversation to automatically fill out the "Target" above. It uses two key pieces of information you provide:
         *   Your detailed **UX Specifications** document (which describes how the whole app should look and work).
         *   Your **MVP Scope Definition** (which lists exactly which features or pages are needed for the *first version* of your app).
-    *   **How it's used:** You start a chat with an AI using this prompt, providing your UX Specs and MVP Scope. The AI will ask you questions, referencing your documents, to gather all the details needed for the Target Template, focusing only on the MVP parts. The final output of this chat is the completed Target Template, ready for `v0.dev`.
+    *   **How it's used:** You start a chat with an AI using this prompt, providing your UX Specs and MVP Scope. The AI will ask you questions, referencing your documents, to gather all the details needed for the Target, focusing only on the MVP parts. The final output of this chat is the completed Target, ready for GitHub Copilot Agent.
 
 ## How to Use These Prompts
 
-1.  **Have your Docs Ready:** You need your completed **UX Specifications** and your defined **MVP Scope** (knowing which features/pages are in the first version).
-2.  **Use the Filler Prompt:** Start a chat with an AI using `v0.dev-visual-generation-prompt-filler.md`. Attach the blank `v0.dev-visual-generation-prompt.md` template file and paste your UX Specs and MVP Scope into the designated input areas.
-3.  **Chat with the AI:** Answer the AI's questions. It will use your documents to help fill in the details for the visual design of your MVP.
-4.  **Get the Target Prompt:** The AI will give you the fully filled-out `v0.dev-visual-generation-prompt.md`.
-5.  **Generate Code:** Copy this completed prompt and paste it into `v0.dev` to generate the initial frontend code.
-6.  **Review & Integrate:** Carefully check the code `v0.dev` produces and add it to your project.
-
-## Model Compatibility
-
-*   **Prompt Filler:** Designed for advanced conversational LLMs (e.g., Gemini Advanced, GPT-4, Claude 3) capable of following complex instructions, analyzing provided documents (UX Specs, MVP Scope), and engaging in detailed dialogue.
-*   **Visual Generation Prompt:** Specifically designed as input for `v0.dev`.
-*   **Context Window:** Models with a **large context window (high token limit)** are strongly recommended for the Prompt Filler, due to the need to process potentially large UX Specification documents alongside the interactive conversation and the target template structure.
-*   **Parameter Tuning:** When using the filled Visual Generation Prompt with `v0.dev`, its default parameters are usually appropriate. For the Prompt Filler, standard conversational parameters generally work well. Using a lower temperature (e.g., 0.2-0.5) might help the AI stick more closely to the provided UX Specifications when suggesting content.
-
-## Important Considerations
-
-*   **AI is a Helper:** These prompts speed things up, but the AI doesn't understand your project like you do.
-*   **Review is Essential:** Always carefully check the prompts generated by the filler and the code generated by `v0.dev`. Fix any mistakes or things that don't look right.
-*   **Clear Inputs = Better Outputs:** The more detailed and clear your UX Specifications and MVP Scope are, the better the results will be.
-*   **Starting Point:** Think of the generated code as a good starting point, not the final product. You'll still need to refine it and add functionality.
+1.  **Have your UX specs & MVP scope ready**
+2.  **Use the filler prompt with an LLM to collect your stack choice + feature/pages list**
+3.  **Paste the completed scaffold prompt into GitHub Copilot Agent to generate your initial code**

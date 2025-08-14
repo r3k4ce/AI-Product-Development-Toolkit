@@ -32,8 +32,8 @@ This library is designed to be used sequentially. Here’s a typical workflow:
 3.  **Define MVP Concept:** Use the `MVP-Concept/Guided-MVP-Concept-Definition.md` prompt with your PRD (and optionally UX Specs) to define the focused **MVP Concept Description** (scope, hypothesis, features).
 4.  **Plan MVP Development:** Use `MVP/Guided-MVP.md` (or `Ultra-Lean-MVP/...` for speed) with the PRD and MVP Concept to create the **MVP Development Plan** or **Build Spec**.
 5.  **Plan MVP Testing:** Use the `Testing/Guided-Test-Plan.md` prompt with the MVP features (from Step 3 or 4) to outline the **Test Plan**.
-6.  **Prepare Visual Prompt for v0.dev:** Use the `v0-Design/v0.dev-visual-generation-prompt-filler.md` prompt, providing your UX Specs (Step 2) and MVP Scope (Step 3 or 4), to generate a **Filled `v0.dev` Prompt** tailored to your MVP.
-7.  **Generate Visual Code:** Use the filled prompt from Step 6 with the external `v0.dev` tool to get initial **Visual Frontend Code**.
+6.  **Generate a Copilot Agent scaffold prompt** by running the `v0-Design` filler (now repurposed) to ask the user for their chosen tech stack and feature scope.
+7.  **Copy the filled scaffold prompt into GitHub Copilot Agent (or your CLI) to bootstrap your project.**
 8.  **Build, Integrate & Test:** Manually develop the MVP features according to the MVP Plan (Step 4), integrate the visual code (Step 7), and test using the Test Plan (Step 5) to arrive at your **Working MVP**.
 
 ## Repository Navigation
@@ -64,7 +64,7 @@ This repository is organized into topical folders containing specialized prompts
 
 [Ultra-Lean-MVP](https://github.com/TechNomadCode/AI-Prompt-Library/blob/main/Ultra-Lean-MVP/README.md)
 
-[v0-Design](https://github.com/TechNomadCode/AI-Prompt-Library/blob/main/v0-Design/README.md)
+
 
 **General Usage Notes:**
 
