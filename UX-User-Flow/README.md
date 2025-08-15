@@ -12,7 +12,7 @@ Creating effective user experience documentation requires translating abstract p
 * **Ensures Comprehensive Coverage:** The prompt guides the AI to ask clarifying questions about all aspects of the user experience, from information architecture to interaction patterns.
 * **User-Centered Development:** Incorporates explicit check-ins where the AI verifies its understanding of your vision at critical points.
 * **Visual Communication:** Helps visualize interfaces and user flows using text-based layout sketches and descriptions.
-* **v0.dev Integration:** Includes a dedicated section that formats your UX specifications for direct use with v0.dev or similar AI design tools.
+* **Copilot scaffold translation:** Includes a dedicated section that formats your UX specifications into a Copilot Agent scaffold prompt for use with GitHub Copilot Agent or similar tools.
 
 ## Key Features of the Prompt's Design
 
@@ -21,7 +21,7 @@ Creating effective user experience documentation requires translating abstract p
 * **Visualization Techniques:** Incorporates text-based layout descriptions and component hierarchies that help illustrate interface concepts.
 * **Iterative Process:** Designed for building UX specifications section by section through conversation.
 * **User Confirmation Checkpoints:** Requires the AI to regularly verify that its interpretation aligns with your vision.
-* **v0.dev Design Translation:** Includes a dedicated section that formats your UX specifications for direct use with v0.dev or similar AI design tools.
+* **Copilot Scaffold Translation:** Includes a dedicated section that formats your UX specifications into a Copilot Agent scaffold prompt suitable for GitHub Copilot Agent or similar tools.
 
 ## How to Use the Prompt
 
@@ -31,7 +31,7 @@ Creating effective user experience documentation requires translating abstract p
 4. **Paste into AI:** Copy the entire modified prompt and paste it into your chat interface with a capable LLM (like Gemini, GPT-4, Claude 3, etc.).
 5. **Engage:** Answer the AI's questions thoughtfully about how requirements translate to visual interfaces and user flows. Your responses will guide the subsequent questions.
 6. **Iterate:** Continue the conversation, providing feedback and answers until you feel enough information has been gathered for comprehensive UX specifications.
-7. **Review the v0.dev Translation:** Pay special attention to the v0.dev Design Translation Guide section, as this can be directly used as input for AI-powered visual design tools.
+7. **Review the Copilot scaffold translation:** Pay special attention to the Copilot Scaffold Translation section, then paste the completed scaffold prompt into GitHub Copilot Agent (or the `gh`/IDE integration) to bootstrap your project or generate initial code and structure.
 
 ## Model Compatibility
 
@@ -46,4 +46,4 @@ Creating effective user experience documentation requires translating abstract p
 * **Input Quality Matters:** The detail and clarity of your PRD and subsequent answers significantly impact the quality of the resulting UX specification.
 * **Iterative Process:** Don't expect perfect UX specifications in one session. Use the AI to explore ideas and structure, then refine as needed.
 * **Visual Testing Required:** The text-based layout descriptions should be tested with actual visual prototypes before implementation.
-* **v0.dev Guidance Only:** The v0.dev translation section provides guidance, but you may need to adjust the output based on your specific design needs.
+* **Copilot guidance only:** The Copilot Scaffold Translation section provides a scaffold prompt and guidance; you may need to adjust the output based on your specific design needs or the particular Copilot Agent integration you use.

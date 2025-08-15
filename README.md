@@ -1,6 +1,8 @@
-# AI Product Development Toolkit 🧠 [PromptQuick.ai](https://promptquick.ai)
+# AI Product Development Toolkit
 
 Welcome to my personal collection of product development prompt templates! This repository serves as a central place to store, organize, and share effective prompts for various AI models, designed to guide users from idea to MVP.
+
+Note: This repository is a fork of the original AI Product Development Toolkit by TechNomadCode and has been adapted to use a GitHub Copilot Agent scaffold prompt workflow (see the `copilot-scaffold` folder).
 
 ## About This Repository
 
@@ -32,7 +34,7 @@ This library is designed to be used sequentially. Here’s a typical workflow:
 3.  **Define MVP Concept:** Use the `MVP-Concept/Guided-MVP-Concept-Definition.md` prompt with your PRD (and optionally UX Specs) to define the focused **MVP Concept Description** (scope, hypothesis, features).
 4.  **Plan MVP Development:** Use `MVP/Guided-MVP.md` (or `Ultra-Lean-MVP/...` for speed) with the PRD and MVP Concept to create the **MVP Development Plan** or **Build Spec**.
 5.  **Plan MVP Testing:** Use the `Testing/Guided-Test-Plan.md` prompt with the MVP features (from Step 3 or 4) to outline the **Test Plan**.
-6.  **Generate a Copilot Agent scaffold prompt** by running the `v0-Design` filler (now repurposed) to ask the user for their chosen tech stack and feature scope.
+6.  **Generate a Copilot Agent scaffold prompt** by running the `copilot-scaffold` filler to ask the user for their chosen tech stack and feature scope.
 7.  **Copy the filled scaffold prompt into GitHub Copilot Agent (or your CLI) to bootstrap your project.**
 8.  **Build, Integrate & Test:** Manually develop the MVP features according to the MVP Plan (Step 4), integrate the visual code (Step 7), and test using the Test Plan (Step 5) to arrive at your **Working MVP**.
 
@@ -46,25 +48,23 @@ This repository is organized into topical folders containing specialized prompts
 *   **MVP**: Template for developing detailed MVP development plans based on the concept.
 *   **Ultra-Lean-MVP**: Template focused on rapidly defining core MVP build specifications (alternative to detailed MVP planning).
 *   **Testing**: Template for creating thorough test plans for software quality assurance.
-*   **v0-Design**: Templates for generating `v0.dev` prompts based on UX Specs and MVP scope.
+*   **copilot-scaffold**: Templates for generating Copilot Agent scaffold prompts (`copilot-scaffold-prompt.*`) based on UX Specs and MVP scope.
 
 ```
 ⚠️ Readme files in each folder contain crucial details – do not ignore them. ⚠️
 ```
 
-[PRD](https://github.com/TechNomadCode/AI-Prompt-Library/blob/main/PRD/README.md)
+[PRD](PRD/README.md)
 
-[UX-User-Flow](https://github.com/TechNomadCode/AI-Prompt-Library/blob/main/UX-User-Flow/README.md)
+[UX-User-Flow](UX-User-Flow/README.md)
 
-[MVP-Concept](https://github.com/TechNomadCode/AI-Prompt-Library/blob/main/MVP-Concept/README.md)
+[MVP-Concept](MVP-Concept/README.md)
 
-[MVP](https://github.com/TechNomadCode/AI-Prompt-Library/blob/main/MVP/README.md)
+[MVP](MVP/README.md)
 
-[Testing](https://github.com/TechNomadCode/AI-Prompt-Library/blob/main/Testing/README.md)
+[Testing](Testing/README.md)
 
-[Ultra-Lean-MVP](https://github.com/TechNomadCode/AI-Prompt-Library/blob/main/Ultra-Lean-MVP/README.md)
-
-
+[Ultra-Lean-MVP](Ultra-Lean-MVP/README.md)
 
 **General Usage Notes:**
 
@@ -77,18 +77,6 @@ This repository is organized into topical folders containing specialized prompts
 ## Model Compatibility
 
 These prompts were developed with large context window models in mind (like Google Gemini, GPT-4, Claude 3), as they need to maintain conversation context throughout potentially lengthy exchanges, often referencing large input documents (like PRDs or UX Specs). For best results when generating final document drafts, consider using a low temperature setting (0.2-0.5) to encourage factual, focused output.
-
-## How I designed these
-
-I use AI tools for prompt design combined with my personal [Prompt Rulebook](https://promptquick.ai) and all the acquired metaknowledge throughout my journey of study and engineering.
-
-## Contributing
-
-While this is primarily my personal collection, if you have suggestions or improvements, feel free to DM me:
-
-[Reddit](https://www.reddit.com/user/Puzzled-Ad-6854)
-
-[X](https://x.com/tech_n0mad)
 
 ## License
 

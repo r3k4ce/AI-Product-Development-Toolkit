@@ -1,3 +1,4 @@
+```markdown
 # AI Prompts for Copilot Agent Scaffold Prompt
 
 This folder contains prompts to help you generate a scaffold prompt for GitHub Copilot Agent. The goal is to turn your detailed User Experience (UX) plans and MVP scope into a starting point for your application's codebase.
@@ -22,3 +23,4 @@ There are two main files here:
 1.  **Have your UX specs & MVP scope ready**
 2.  **Use the filler prompt with an LLM to collect your stack choice + feature/pages list**
 3.  **Paste the completed scaffold prompt into GitHub Copilot Agent to generate your initial code**
+```
