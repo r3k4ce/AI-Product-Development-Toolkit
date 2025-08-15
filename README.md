@@ -66,6 +66,8 @@ This repository is organized into topical folders containing specialized prompts
 
 [Ultra-Lean-MVP](Ultra-Lean-MVP/README.md)
 
+[copilot-scaffold](copilot-scaffold/README.md)
+
 **General Usage Notes:**
 
 *   **Browse:** Navigate to the relevant folder for the step you're on.
