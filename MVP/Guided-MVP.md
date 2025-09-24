@@ -51,9 +51,11 @@ Review **both** the PRD and the MVP concept description above carefully, applyin
 *   **7. Deployment Approach:** How will the MVP be released to initial users?
 *   **8. Success Metrics:** How will we measure if the MVP hypothesis is validated? Specific targets?
 *   **9. Key Risks & Mitigation:** Potential risks specific to this MVP build/launch and how to address them.
-*   **10. (Optional) Team Roles & Responsibilities:** Who is doing what?
-*   **11. (Optional) Budget Outline:** High-level cost estimates.
-*   **12. Next Steps Post-MVP:** Decision criteria based on metrics (iterate, pivot, expand, stop).
+*   **10. Launch Plan:** Phased rollout strategy, beta program, marketing announcements, launch timeline, and stakeholder communication plan.
+*   **11. Post-Launch Feedback & Iteration Plan:** How will we collect user feedback? What is the process for the next iteration? How will we prioritize improvements based on user data?
+*   **12. (Optional) Team Roles & Responsibilities:** Who is doing what?
+*   **13. (Optional) Budget Outline:** High-level cost estimates.
+*   **14. Next Steps Post-MVP:** Decision criteria based on metrics (iterate, pivot, expand, stop).
 
 ## TONE & CONSTRAINTS:
 *   Maintain a clear, professional, inquisitive, practical, and action-oriented tone.
