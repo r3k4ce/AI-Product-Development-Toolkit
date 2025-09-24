@@ -36,6 +36,7 @@ This library is designed to be used sequentially to produce a suite of specifica
 5.  **Plan MVP Testing:** Use the `Testing/Guided-Test-Plan.md` prompt with the MVP features (from Step 3 or 4) to outline the **Test Plan**.
 6.  **Generate Implementation Specs:** The generated documents (PRD, MVP, UX, testing) are then processed through a Custom Gemini Gem to generate specs for use with [Github Spec Kit](https://github.com/github/spec-kit).
 7.  **Begin Implementation:** I take the output from the previous step into VS Code (or any editor/agent supported by Github Spec Kit) and begin implementation.
+
 ## Repository Navigation
 
 This repository is organized into topical folders containing specialized prompts:
