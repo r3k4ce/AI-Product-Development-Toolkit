@@ -25,18 +25,23 @@ What makes these prompts unique is their **user-centered, guided conversational 
 
 This approach combines the best of both worlds: AI's ability to provide structure and ask clarifying questions, with your subject matter expertise and decision-making authority.
 
-## How to Use: From Idea to Comprehensive Product Specifications
+## How to Use: From Concept to Launch-Ready Specification
 
-This library is designed to be used sequentially. Here’s a typical workflow:
+This library is designed to be used sequentially. Here's the professional workflow:
 
-1.  **Define Product Vision (PRD):** Start with your raw ideas and use the `PRD/Guided-PRD-Creation.md` prompt to generate a structured **Product Requirements Document (PRD)**.
-2.  **Define User Experience (UX):** Use the `UX-User-Flow/Guided-UX-User-Flow.md` prompt, feeding it the PRD, to create detailed **UX Specifications**.
-3.  **Define MVP Concept:** Use the `MVP-Concept/Guided-MVP-Concept-Definition.md` prompt with your PRD (and optionally UX Specs) to define the focused **MVP Concept Description** (scope, hypothesis, features).
-4.  **Plan MVP Development:** Use `MVP/Guided-MVP.md` (or `Ultra-Lean-MVP/...` for speed) with the PRD and MVP Concept to create the **MVP Development Plan** or **Build Spec**.
-5.  **Plan MVP Testing:** Use the `Testing/Guided-Test-Plan.md` prompt with the MVP features (from Step 3 or 4) to outline the **Test Plan**.
+**Phase 0: Strategy & Validation (Conceptual):** *Note: A professional PM typically begins here with market research, problem validation, and competitive analysis before writing a PRD. While not covered by this toolkit, this strategic foundation informs all subsequent phases.*
 
-At this point, you'll have comprehensive specifications and planning documents ready for implementation by your development team.
+**Phase 1: Product Definition (PRD):** Start with your raw ideas and use the `PRD/Guided-PRD-Creation.md` prompt to generate a structured **Product Requirements Document (PRD)** that includes strategic business context.
 
+**Phase 2: User Experience Design (UX Specs):** Use the `UX-User-Flow/Guided-UX-User-Flow.md` prompt, feeding it the PRD, to translate requirements into user-facing **UX Specifications**.
+
+**Phase 3: Scope & Prioritization (MVP Concept):** Use the `MVP-Concept/Guided-MVP-Concept-Definition.md` prompt with your PRD (and optionally UX Specs) to define the focused **MVP Concept Description** that balances business viability with technical feasibility.
+
+**Phase 4: Development & Launch Planning (MVP Plan):** Use `MVP/Guided-MVP.md` (or `Ultra-Lean-MVP/...` for speed) with the PRD and MVP Concept to create the **MVP Development Plan** including launch strategy and post-launch iteration planning.
+
+**Phase 5: Quality Assurance (Test Plan):** Use the `Testing/Guided-Test-Plan.md` prompt with the MVP features to outline the **Test Plan** with strong focus on user acceptance testing.
+
+At this point, you'll have comprehensive, launch-ready specifications and planning documents ready for implementation by your development team.
 ## Repository Navigation
 
 This repository is organized into topical folders containing specialized prompts:
