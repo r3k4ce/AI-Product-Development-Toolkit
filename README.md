@@ -1,8 +1,8 @@
 # AI Product Development Toolkit
 
-Welcome to my personal collection of product development prompt templates! This repository serves as a central place to store, organize, and share effective prompts for various AI models, designed to guide users from idea to MVP.
+Welcome to my personal collection of product development prompt templates! This repository serves as a central place to store, organize, and share effective prompts for various AI models, designed to guide users from idea to comprehensive product specifications and planning documents.
 
-Note: This repository is a fork of the original AI Product Development Toolkit by TechNomadCode and has been adapted to use a GitHub Copilot Agent scaffold prompt workflow (see the `copilot-scaffold` folder).
+Note: This repository is a fork of the original AI Product Development Toolkit by TechNomadCode and has been adapted to focus exclusively on specification document creation (PRD, UX, MVP planning, testing specifications).
 
 ## About This Repository
 
@@ -25,7 +25,7 @@ What makes these prompts unique is their **user-centered, guided conversational 
 
 This approach combines the best of both worlds: AI's ability to provide structure and ask clarifying questions, with your subject matter expertise and decision-making authority.
 
-## How to Use: From Idea to MVP Workflow
+## How to Use: From Idea to Comprehensive Product Specifications
 
 This library is designed to be used sequentially. Here’s a typical workflow:
 
@@ -34,9 +34,8 @@ This library is designed to be used sequentially. Here’s a typical workflow:
 3.  **Define MVP Concept:** Use the `MVP-Concept/Guided-MVP-Concept-Definition.md` prompt with your PRD (and optionally UX Specs) to define the focused **MVP Concept Description** (scope, hypothesis, features).
 4.  **Plan MVP Development:** Use `MVP/Guided-MVP.md` (or `Ultra-Lean-MVP/...` for speed) with the PRD and MVP Concept to create the **MVP Development Plan** or **Build Spec**.
 5.  **Plan MVP Testing:** Use the `Testing/Guided-Test-Plan.md` prompt with the MVP features (from Step 3 or 4) to outline the **Test Plan**.
-6.  **Generate a Copilot Agent scaffold prompt** by running the `copilot-scaffold` filler to ask the user for their chosen tech stack and feature scope.
-7.  **Copy the filled scaffold prompt into GitHub Copilot Agent (or your CLI) to bootstrap your project.**
-8.  **Build, Integrate & Test:** Manually develop the MVP features according to the MVP Plan (Step 4), integrate the visual code (Step 7), and test using the Test Plan (Step 5) to arrive at your **Working MVP**.
+
+At this point, you'll have comprehensive specifications and planning documents ready for implementation by your development team.
 
 ## Repository Navigation
 
@@ -48,7 +47,6 @@ This repository is organized into topical folders containing specialized prompts
 *   **MVP**: Template for developing detailed MVP development plans based on the concept.
 *   **Ultra-Lean-MVP**: Template focused on rapidly defining core MVP build specifications (alternative to detailed MVP planning).
 *   **Testing**: Template for creating thorough test plans for software quality assurance.
-*   **copilot-scaffold**: Templates for generating Copilot Agent scaffold prompts (`copilot-scaffold-prompt.*`) based on UX Specs and MVP scope.
 
 ```
 ⚠️ Readme files in each folder contain crucial details – do not ignore them. ⚠️
@@ -65,8 +63,6 @@ This repository is organized into topical folders containing specialized prompts
 [Testing](Testing/README.md)
 
 [Ultra-Lean-MVP](Ultra-Lean-MVP/README.md)
-
-[copilot-scaffold](copilot-scaffold/README.md)
 
 **General Usage Notes:**
 
